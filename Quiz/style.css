@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f6fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.main{
+    background-color: rgb(175, 195, 128);;
+    padding: 150px;
+  border-radius: 1px;
+ 
+  width: 300px;
+  text-align: center;
+  box-shadow: #0d0d0e 
+}
+.app {
+  background: rgb(25, 29, 16);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  box-shadow: #0d0d0e ;
+  color: #f5f6fa;
+}
+input[type=checkbox] {
+  margin-right: 10px;
+}
+.controls {
+  text-align: left;
+  margin: 15px 0;
+}
+input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  margin-left: 10px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1f6391;
+}
