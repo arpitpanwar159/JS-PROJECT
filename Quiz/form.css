@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f8fafd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 850px;
+}
+
+.sidebar {
+  background-color: #483eff;
+  color: white;
+  width: 250px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+
+.sidebar .step {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.sidebar .step span {
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 60%;
+  font-weight: bold;
+}
+
+.sidebar .step.active span {
+  background-color: white;
+  color: #483eff;
+}
+
+.sidebar .step p {
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.form-container {
+  flex: 1;
+  padding: 40px;
+}
+
+.form-step {
+  display: none;
+  flex-direction: column;
+}
+
+.form-step.active {
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  color: #02295a;
+  margin-bottom: 10px;
+}
+
+form p {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+form label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.next-btn {
+  margin-top: 20px;
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #02295a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-btn:hover {
+  background-color: #1f3d7a;
+}
