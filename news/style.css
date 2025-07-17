@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.main-article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-content h1 {
+  font-size: 2rem;
+}
+
+.main-content p {
+  margin: 1rem 0;
+}
+
+button {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #00001a;
+  color: white;
+  padding: 1rem;
+}
+
+.sidebar h2 {
+  color: orange;
+}
+
+.news-item h3 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.news-item p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.bottom-articles {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.article-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.article-card h4 {
+  color: lightgray;
+  font-size: 1.5rem;
+}
+
+.article-card h5 {
+  margin: 0.5rem 0;
+}
+.nav-links li.active {
+  color: hsl(5, 85%, 63%);
+  font-weight: bold;
+  text-decoration: underline;
+}

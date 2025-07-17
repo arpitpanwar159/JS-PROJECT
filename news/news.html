@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <div class="logo">W.</div>
+      <nav>
+        <ul class="nav-links">
+          <li>Home</li>
+          <li>New</li>
+          <li>Popular</li>
+          <li>Trending</li>
+          <li>Categories</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="main-article">
+        <img
+          src="https://png.pngtree.com/thumb_back/fh260/background/20220216/pngtree-simple-main-image-background-latest-news-image_928522.jpg"
+          alt="Main News Image"
+        />
+        <div class="main-content">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <p>
+            We dive into the next evolution of the web that puts the power of
+            platforms back into the hands of the people...
+          </p>
+          <button>READ MORE</button>
+        </div>
+      </section>
+
+      <aside class="sidebar">
+        <h2>New</h2>
+        <div class="news-item">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr />
+        <div class="news-item">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <hr />
+        <div class="news-item">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY...</p>
+        </div>
+      </aside>
+
+      <section class="bottom-articles">
+        <div class="article-card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgAvU737hm96SDcqni8JUmZF6yrnUltpFC0A&s"
+            alt="Retro PC"
+          />
+          <div>
+            <h4>01</h4>
+            <h5>Reviving Retro PCs</h5>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <img
+            src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTxTSnaARgXUGxyVv43wttnR2DY0Pcg4Mutva5SbgR0VQZTIkg6mjh7S6Vx6cY-dROnDiMpwnUvikMXSkdfQ3ThvG44tuAn51Vq1xlW5DCPBYRxvj51gfKC4Q"
+            alt="Laptops"
+          />
+          <div>
+            <h4>02</h4>
+            <h5>Top 10 Laptops of 2022</h5>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <div class="article-card">
+          <img
+            src="data:image/png;base64,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"
+            alt="Gaming"
+          />
+          <div>
+            <h4>03</h4>
+            <h5>The Growth of Gaming</h5>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
