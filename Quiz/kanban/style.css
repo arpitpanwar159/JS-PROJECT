@@ -1,0 +1,102 @@
+/* style.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: #1e1e2f;
+  color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #2c2c3e;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.board-list {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.board-list li {
+  margin: 10px 0;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.board-list .active {
+  background: #6366f1;
+}
+
+.theme-toggle {
+  margin-top: 20px;
+}
+
+.board {
+  flex: 1;
+  padding: 20px;
+  background: #e9e9f3;
+}
+
+body.dark .board {
+  background: #2b2b3c;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  min-height: 300px;
+}
+
+body.dark .column {
+  background: #3b3b4e;
+}
+
+.task {
+  background: #dcdcdc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+body.dark .task {
+  background: #4b4b60;
+}

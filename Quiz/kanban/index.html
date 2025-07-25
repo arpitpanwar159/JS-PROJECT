@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanban Task Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h2>kanban</h2>
+      <ul class="board-list">
+        <li class="active">Platform Launch</li>
+        <li>Marketing Plan</li>
+        <li>Roadmap</li>
+        <li><button id="new-board">+ Create New Board</button></li>
+      </ul>
+      <div class="theme-toggle">
+        <label>
+          <input type="checkbox" id="toggle-theme" />
+          <span>🌙</span>
+        </label>
+      </div>
+    </aside>
+
+    <main class="board">
+      <header>
+        <h1>Platform Launch</h1>
+        <button id="add-task">+ Add New Task</button>
+      </header>
+
+      <section class="columns">
+        <div class="column">
+          <h3>Todo</h3>
+          <div class="task">Build UI for onboarding flow</div>
+        </div>
+        <div class="column">
+          <h3>Doing</h3>
+          <div class="task">Add account management endpoints</div>
+        </div>
+        <div class="column">
+          <h3>Done</h3>
+          <div class="task">Conduct 5 wireframe tests</div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+    
